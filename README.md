@@ -28,8 +28,8 @@ Standard AI models can struggle with cluttered TradingView screenshots (ads, sid
 
 ## Tech Stack
 
-- **Frontend**: React 18
-- **Styling**: Tailwind CSS
+- **Frontend**: React 19
+- **Styling**: Tailwind CSS v4
 - **Build Tool**: Vite
 - **Charting**: lightweight-charts (by TradingView)
 - **CSV Parsing**: papaparse
@@ -84,9 +84,8 @@ Dojimaster/
 │   │   └── CandlestickChart.jsx    # Main chart component
 │   ├── App.jsx                     # Root component
 │   ├── main.jsx                    # Entry point
-│   └── index.css                   # Global styles with Tailwind
+│   └── index.css                   # Global styles with Tailwind v4
 ├── index.html                      # HTML template
-├── tailwind.config.js              # Tailwind configuration
 ├── postcss.config.js               # PostCSS configuration
 ├── vite.config.js                  # Vite build config
 ├── package.json                    # Dependencies
